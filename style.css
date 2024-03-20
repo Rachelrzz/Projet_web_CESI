@@ -266,7 +266,11 @@ h3 {
         margin-right: 0;
         right: 2px;
     }
-  
+
+    .video {
+        width: 100%;
+    }
+
     .h1 h1{
         font-size: 18px;
         display: flex;
