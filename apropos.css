@@ -246,23 +246,10 @@ h3 {
         display: flex;
         display: none;
     }
-
-    .qui{
+ 
+    .apropos {
         display: flex;
         flex-direction: column;
-        justify-content: ;
-    }
-
-    .mission{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 80px;
-    }
-    .vision {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     .img {
