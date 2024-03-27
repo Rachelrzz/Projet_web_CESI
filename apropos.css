@@ -90,17 +90,17 @@ header {
 .img3 {
     display: flex;
     margin-top: 95px;
-    margin-right: 150px;
+    margin-left: 90px;
     margin-bottom: 30px;
     height: 414px;
     width: 515px;
 }
 
 hr {
-    max-width: 200px;
+    max-width: 250px;
+    margin-left: 630px;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     margin-bottom: 80px;
   }
 
@@ -198,6 +198,11 @@ h3 {
 
 /* Pour les tablettes */
 @media (max-width: 1024px) {
+
+    header {
+        font-size: 15px; 
+    }
+
     .mission{
         display: flex;
         flex-direction: column;
@@ -210,12 +215,106 @@ h3 {
         justify-content: center;
     }
 
-    .img3 {
+    .img{
+        width: 100%;
+    }
+
+    hr {
+        max-width: 250px;
+        margin-left: 290px;
         display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+      }
+}
+
+/* CSS pour les téléphones */
+@media screen and (max-width: 450px) {
+    *{
+        margin: 0;
+    }
+
+    .header .text-top {
+        display: none;
+}
+
+    header {
+        font-size: 15px; 
+    }
+
+    .text-top .a {
+        display: flex;
+        display: none;
+    }
+
+    .qui{
+        display: flex;
+        flex-direction: column;
+        justify-content: ;
+    }
+
+    .mission{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .vision {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 
-    .img{
-        width: 1008px;
+    .img {
+        margin-top: 70px;
+        width: 100%;
     }
+
+    .img2 {
+        height: 200px;
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .img3 {
+        height: 200px;
+        width: 200px;
+    }
+
+    hr {
+        max-width: 250px;
+        margin-left: 75px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+      }
+
+    .baspage {
+        flex-direction: column;
+    }
+
+    .propos, .aide, .Contact {
+    padding-bottom: 20px;
+
+  }
+    .titrefooter {
+        font-size: 10px;
+    }
+    .reseauIcone {
+      flex-direction: row;
+    }
+
+    .reseauIcone a {
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .fb, .x, .ytb, .insta, .tiktok, .in {
+        width: 25px;
+        height: 25px;
+        border-radius: 8px;
+    }
+
+    
 }
