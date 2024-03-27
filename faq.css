@@ -160,3 +160,49 @@ h3 {
 .reseaux {
     margin-top: 20px;
 }
+
+/* RESPONSIVE */
+
+/* Pour les tablettes */
+@media (max-width: 1024px) {
+    .imageentete{
+        height: 50px;
+        width: 100%;
+    }
+}
+
+/* CSS pour les téléphones */
+@media screen and (max-width: 450px) {
+    .imageentete{
+        height: 50px;
+        width: 100%;
+    }
+
+    .baspage {
+        flex-direction: column;
+    }
+
+    .propos, .aide, .Contact {
+    padding-bottom: 20px;
+
+  }
+    .titrefooter {
+        font-size: 10px;
+    }
+    .reseauIcone {
+      flex-direction: row;
+    }
+
+    .reseauIcone a {
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .fb, .x, .ytb, .insta, .tiktok, .in {
+        width: 25px;
+        height: 25px;
+        border-radius: 8px;
+    }
+
+}
