@@ -193,3 +193,29 @@ h3 {
 .reseaux {
     margin-top: 20px;
 }
+
+/* RESPONSIVE */
+
+/* Pour les tablettes */
+@media (max-width: 1024px) {
+    .mission{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .vision {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img{
+        width: 1008px;
+    }
+}
