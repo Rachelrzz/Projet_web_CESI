@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="probleme.css">
+    <script src="probleme.js"></script>
     <title>Signaler</title>
 </head>
 <body>
@@ -17,12 +18,19 @@
             <h2>Signaler un problème</h2>
             <label for="nom">Nom complet:</label>
             <input type="text" id="nom" name="nom" required>
+
             <label for="email">Adresse email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required>   
+
+            <label for="tel">Téléphone:</label>
+            <input type="tel" id="tel" name="tel" minlength="10" maxlength="10" oninput="limitTelephone()"><br>
+
             <label for="probleme">Description du problème:</label>
             <textarea id="probleme" name="probleme" required></textarea>
+
             <label for="fichier">Joindre un fichier:</label>
             <input type="file" id="fichier" name="fichier">
+
             <button type="submit">Envoyer</button>
             <button>Annuler</button>
         </form>
