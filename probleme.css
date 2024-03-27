@@ -8,6 +8,30 @@ body {
 }
 
 /* BODY */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  font-size: 20px; 
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  position: fixed; 
+  background-color: white;
+  z-index: 10;
+}
+
+.header .logo {
+  display: inline-block;
+  height: 70px;
+  margin-left: 40px;
+  cursor: pointer;
+  width: 100px;
+}
+
 #probleme-form {
     width: 500px;
     margin: 20px auto;
@@ -45,4 +69,8 @@ body {
     border: 1px solid #000;
     border-radius: 3px;
   }
-  
+
+  .probleme-form {
+    margin-top: 200px;
+  }
+
